@@ -1,12 +1,12 @@
 <template>
     <div>
         这是一个课程设计项目    
-        <m-input></m-input> 
+        aaaaaa
     </div>
 </template>
 
 <script>
-import mInput from '@/components/mInput'
+
 
 export default {
     data() {
@@ -15,7 +15,7 @@ export default {
         }
     },   
     components: {
-        mInput,
+        
     },
     watch: {
         

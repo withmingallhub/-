@@ -3,13 +3,17 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import mInput from './components/mInput'
+import zypc from 'zypc-components'
+import Mock from 'mockjs'
+
+Vue.use(zypc)
 Vue.config.productionTip = false
+
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  components: { App,mInput },
+  components: { App },
   template: '<App/>'
 })
