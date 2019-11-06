@@ -11,14 +11,14 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/api': {  //代理地址  
-        target: 'http://116.62.44.85:3001',  //需要代理的地址  
-        changeOrigin: true,  //是否跨域  
-        secure: false,    
-        pathRewrite: {  
-            '^/api': ''   //本身的接口地址没有 '/api' 这种通用前缀，所以要rewrite，如果本身有则去掉  
-        }
-      }
+      // '/api': {  //代理地址  
+      //   target: 'http://192.168.137.1:8080/blog',  //需要代理的地址  
+      //   changeOrigin: true,  //是否跨域  
+      //   secure: false,    
+      //   pathRewrite: {  
+      //       '^/api': ''   //本身的接口地址没有 '/api' 这种通用前缀，所以要rewrite，如果本身有则去掉  
+      //   }
+      // }
     },
 
     // Various Dev Server settings
